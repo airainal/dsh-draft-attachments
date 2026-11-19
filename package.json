@@ -1,5 +1,5 @@
 {
-  "name": "dsh-draft-attachments",
+  "name": "@airainal/dsh-draft-attachments",
   "version": "1.0.0",
   "description": "Keeps unsent composer images and file attachments when you switch sessions.",
   "type": "module",
@@ -54,3 +54,4 @@
     }
   }
 }
+

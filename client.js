@@ -1,5 +1,5 @@
 /**
- * dsh-draft-attachments — client half.
+ * dsh-draft-attachments 鈥?client half.
  *
  * DSH persists a per-session composer draft as text, references, quotes and a
  * command token. Browser-owned draft attachments (images and files) live only
@@ -12,7 +12,7 @@
  * keeps the document-level file drop route that the shipped rail provided.
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-draft-attachments',
+  id: '@airainal/dsh-draft-attachments',
   factory(require) {
     const React = require('react')
     const { Fragment, useEffect, useRef, useState } = React
@@ -506,3 +506,4 @@ window.__ModuleLoader__.load({
     }
   },
 })
+

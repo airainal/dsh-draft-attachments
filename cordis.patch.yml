@@ -1,3 +1,5 @@
 - insert:
-    - id: dsh-draft-attachments
-      name: dsh-draft-attachments
+    - id: airainal-dsh-draft-attachments
+      name: '@airainal/dsh-draft-attachments'
+
+
