@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "附件草稿保留",
+    "description": "切换会话再回来时，保留未发送的图片和文件附件。",
+    "detail": "docs/DETAIL.zh.md"
+  }
+}

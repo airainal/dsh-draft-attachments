@@ -1,0 +1,56 @@
+{
+  "name": "dsh-draft-attachments",
+  "version": "1.0.0",
+  "description": "Keeps unsent composer images and file attachments when you switch sessions.",
+  "type": "module",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "attachments",
+    "draft",
+    "composer",
+    "sessions"
+  ],
+  "author": "airainal",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airainal/dsh-draft-attachments.git"
+  },
+  "bugs": {
+    "url": "https://github.com/airainal/dsh-draft-attachments/issues"
+  },
+  "homepage": "https://github.com/airainal/dsh-draft-attachments#readme",
+  "engines": {
+    "dsh": "^0.2.1-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "assets",
+    "README.md",
+    "README.zh.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

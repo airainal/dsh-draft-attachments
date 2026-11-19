@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Draft attachments",
+    "description": "Keeps unsent images and files in the composer when you switch sessions.",
+    "detail": "docs/DETAIL.md"
+  }
+}
